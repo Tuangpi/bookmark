@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 2rem auto 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+@media screen and (max-width: 660px) {
+    main{
+        width: 90%;
+    }
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5rem;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0.2rem;
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+input[type='text']{
+    width: 90%;
+    height: 2rem;
+    border-radius: 0.2rem;
+    border: 0.1rem solid rgb(138, 138, 138);
+    padding-left: 0.5rem;
+}
+input[type='text']:focus{
+    border: 0.1rem solid rgb(138, 138, 138);
+    outline: 0;
+}
+.box button{
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    color: aliceblue;
+    background-color: rgb(99, 125, 209);
+    outline: 0;
+    border: 0;
+    border-radius: 0.2rem;
+}
+.box button:hover{
+    background-color: rgb(89, 115, 199);
+}
+
+main > div:last-of-type{
+    margin: 1.5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.marked-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0.2rem;
+    padding: 1.5rem;
+    column-gap: 0.5rem;
+}
+a{
+    text-decoration: none;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.2rem;
+}
+.visit{
+    background-color: white;
+    color: black;
+    border: 1px solid #d3d3d3;
+}
+.delete{
+    background-color: rgb(207, 84, 84);
+    color: white;
+    border: 1px solid rgb(207, 84, 84);
+}
+.visit:hover{
+    background-color: rgb(235, 235, 235);
+}
+.delete:hover{
+    background-color: rgb(217, 94, 94);
+}
