@@ -21,6 +21,10 @@ This project lets you save website names and URLs in the browser using `localSto
 - `style.css` - app styling and responsive layout
 - `app.js` - bookmark logic and `localStorage` handling
 
+## Live Demo
+
+[Live Demo](https://bookmark.singkhantuang97.workers.dev/)
+
 ## How to Run
 
 No build step or installation is required.
